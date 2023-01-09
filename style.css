@@ -761,7 +761,7 @@ label {
         margin: 5px;
     }
 }
-.submit input:hover {
+.submit:hover {
     background-color: #ebb548;
     color: white;
 }
