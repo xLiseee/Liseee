@@ -640,8 +640,7 @@ textarea {
     display: flex;
     justify-content: center;
     border-radius: 35px;
-    margin: auto;
-    margin-top: 60px;
+    margin: 0 auto;
 }
 label {
     font-size: 20px;
