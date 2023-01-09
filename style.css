@@ -644,7 +644,7 @@ p {
         position: relative;
         z-index: 3;
         margin-left: 1rem;
-        margin-top: 38rem;
+        margin-top: 33rem;
         flex-basis: 80%;
         display: flex;
         text-align: center;
@@ -655,10 +655,10 @@ p {
 
         position: absolute;
         z-index: 3;
-        margin-top: 31.5rem;
-        margin: 31.5rem auto 0 auto;
+        margin: 25.5rem auto 0 auto;
         font-size: 70px;
         text-align: center;
+        margin-left: 9px;
     }
 
     #rechthoek img {
@@ -670,7 +670,7 @@ p {
         margin-top: 2.6rem;
     }
     .hallodaar {
-       font-size: 15px;
+       font-size: 13px;
         text-align: center;
         font: normal normal normal 83px/100px Varela Round;
         letter-spacing: 0px;
