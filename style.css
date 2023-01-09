@@ -362,9 +362,6 @@ p {
 .portfolio-wpl-buttons a {
     text-decoration: none;
 }
-.contact-form {
-    margin: auto;
-}
 
 @media only screen and (max-width: 949px) {
 
@@ -562,11 +559,7 @@ p {
         display: flex;
 
     }
-    .contact-form {
-        margin-top: 50px;
-        margin-left: 60px;
-        margin-right: auto;
-    }
+
 }
 
 .scroll {
@@ -648,6 +641,8 @@ textarea {
     display: flex;
     justify-content: center;
     border-radius: 35px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 label {
     font-size: 20px;
@@ -758,7 +753,7 @@ label {
         display: flex;
         justify-content: center;
         border-radius: 35px;
-        margin-left: 5px;
+        margin-left: 7px;
         margin-top: 60px;
     }
     label {
