@@ -635,7 +635,7 @@ p {
         justify-content: center;
         flex-basis: 40%;
         margin-top: 40px;
-        margin-left: 0;
+        margin-left: 5px;
         margin-right: 0;
     }
 
