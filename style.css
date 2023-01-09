@@ -549,6 +549,16 @@ p {
         margin-bottom: 20px;
         align-items: center;
     }
+    .scroll {
+        width: auto;
+        height: 306px;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 20px;
+        overflow-y: hidden;
+        display: flex;
+
+    }
 }
 
 .scroll {
@@ -670,6 +680,17 @@ p {
         z-index: 3;
     }
     .aboutme {
-    margin:3rem auto ;
+    margin:3rem auto ;}
+
+    .scroll {
+        width: auto;
+        height: 306px;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 20px;
+        overflow-y: hidden;
+        display: flex;
+
+    }
 }
 }
