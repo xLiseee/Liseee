@@ -310,7 +310,7 @@ p {
     background-color: #295b69;
 }
 main {
-    margin: 0px;
+    margin: 0;
 }
 
 .illustraties h1 {
@@ -733,7 +733,8 @@ label {
     }
     .social-links-contact svg {
         height: 60px;
-        margin: 30px;
+        margin-top: 30px;
+        margin-left: 50px ;
         color: white;
         font-size: 25px;
         position: sticky;
