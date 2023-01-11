@@ -577,6 +577,9 @@ label {
         display: flex;
 
     }
+    .social-links-contact {
+        margin-top: 30px;
+    }
 
 }
 
@@ -721,6 +724,27 @@ label {
         position: absolute;
         width: 340px;
         height: 341px;
+    }
+    .social-links-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .social-links-contact svg {
+        height: 60px;
+        margin: 30px;
+        color: white;
+        font-size: 25px;
+        position: sticky;
+        fill: white;
+    }
+    .social-links-contact svg:hover {
+        color: #ebb548;
+        fill: #ebb548;
+    }
+    .social-links-contact a {
+        text-decoration: none;
     }
 }
 
