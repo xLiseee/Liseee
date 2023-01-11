@@ -196,7 +196,6 @@ main {
 }
 .social-links-contact svg {
     height: 60px;
-    margin: 30px;
     color: white;
     font-size: 25px;
     position: sticky;
@@ -208,6 +207,7 @@ main {
 }
 .social-links-contact a {
    text-decoration: none;
+    margin: 30px;
 }
 
 #rechthoek {
