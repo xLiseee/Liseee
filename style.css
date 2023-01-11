@@ -129,7 +129,7 @@ main {
 
 .col-2 {
     position: relative;
-    flex-basis: 20%;
+    flex-basis: 25%;
     display: flex;
     align-items: center;
 }
@@ -190,8 +190,25 @@ main {
     text-decoration: none;
     cursor: pointer;
 }
-
-
+.social-links-contact {
+    display: flex;
+    justify-content: center;
+}
+.social-links-contact svg {
+    height: 60px;
+    margin: 30px;
+    color: white;
+    font-size: 25px;
+    position: sticky;
+    fill: white;
+}
+.social-links-contact svg:hover {
+    color: #ebb548;
+    fill: #ebb548;
+}
+.social-links-contact a {
+   text-decoration: none;
+}
 
 #rechthoek {
     width: 1250px;
@@ -692,6 +709,18 @@ label {
         margin-right: auto;
         width: auto;
 
+    }
+    .illustratie {
+        width: 340px;
+        height: 341px;
+        position: relative;
+        margin-left: 30px;
+    }
+
+    .color-circle {
+        position: absolute;
+        width: 340px;
+        height: 341px;
     }
 }
 
