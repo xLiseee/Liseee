@@ -115,6 +115,9 @@ main {
     background-color: #ebb548;
     cursor: pointer;
 }
+footer {
+    padding: 20px;
+}
 
 .col-1:after {
     content: '';
@@ -757,4 +760,15 @@ label {
 .submit {
     background-color: white;
     color: #2F92A8;
+}
+@media only screen and (max-width: 375px) {
+    #rechthoek h1 {
+
+        position: absolute;
+        z-index: 3;
+        margin: 25rem auto 0 auto;
+        font-size: 60px;
+        text-align: center;
+        margin-left: 9px;
+    }
 }
