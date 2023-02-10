@@ -681,6 +681,10 @@ label {
         margin: 0 auto;
 
     }
+    .portfolio-main img:hover {
+        width: auto;
+        line-height: 230px;
+    }
 
 }
 
