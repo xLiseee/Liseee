@@ -683,7 +683,7 @@ label {
     }
     .portfolio-main img:hover {
         width: auto;
-        line-height: 230px;
+        height: 230px;
     }
 
 }
