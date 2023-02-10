@@ -642,6 +642,7 @@ label {
     }
     .porfolio-images1 img{
         width: auto;
+        height: 230px;
         padding: 8px;
         margin: auto;
         text-align: center;
@@ -682,7 +683,8 @@ label {
 
     }
     .portfolio-main img:hover {
-       display: block;
+height: 230px;
+        width: auto;
     }
 
 }
