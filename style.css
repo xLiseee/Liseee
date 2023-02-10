@@ -640,6 +640,10 @@ label {
         align-items: center;
 
     }
+    main .aboutme {
+        margin: 0;
+        padding: 0;
+    }
     .porfolio-images1 img{
         width: auto;
         height: 230px;
@@ -697,11 +701,8 @@ height: 230px;
         border-radius: 35px;
         position: relative;
         display: flex;
-        justify-content: center;
         flex-basis: 40%;
         margin-top: 40px;
-        margin-left: 5px;
-        margin-right: 0;
     }
 
     #rechthoek p {
