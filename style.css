@@ -392,7 +392,7 @@ justify-content: center;
     flex-direction: column;
 }
 
-button {
+form button {
     background-color: #ebb548;
     color: #fff;
     padding: 10px 20px;
@@ -401,8 +401,12 @@ button {
     cursor: pointer;
     margin-top: 10px;
     width: 500px;
+    height: 50px;
+    font-size: 20px;
 }
-
+form button:hover {
+    background-color: #f5b812;
+}
 #status-message {
     text-align: center;
     margin-top: 20px;
@@ -773,7 +777,83 @@ label {
         height: 270px;
         width: auto;
     }
+    input {
+        width: 500px;
+        height: 50px;
+        border: 0;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+        outline: none;
+    }
+    form {
+        background-color: #81B4C6;
+        display: flex;
+        padding: 20px;
+        width: 370px;
+        margin: 0 auto;
+        border-radius: 20px;
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
 
+    label {
+        display: block;
+        margin-bottom: 10px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input{
+        width: 70%;
+        padding: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+   textarea#message {
+        height: 200px;
+        margin-bottom: 20px;
+       max-width: 350px;
+    }
+    form button {
+        background-color: #ebb548;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        margin: 0 auto
+    }
+    form button:hover {
+        background-color: #f5b812;
+    }
+    #status-message {
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    textarea {
+        width: 400px;
+        height: 200px;
+        border: 0;
+        border-radius: 20px;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 20px;
+        outline: none;
+    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -1008,6 +1088,7 @@ label {
         margin: 0 auto;
 
     }
+
 }
 
 
