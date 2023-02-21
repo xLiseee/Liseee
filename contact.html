@@ -43,6 +43,20 @@
     </div>
 </header>
 <main>
+    <h1>Contact Us</h1>
+    <form id="contact-form">
+        <label for="name">Naam & Voornaam</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" id="submit-button">Submit</button>
+    </form>
+    <div id="status-message"></div>
     <div class="social-links-contact">
         <a href="https://www.linkedin.com/in/lise-versmissen-698373214/" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -73,6 +87,8 @@
 <footer>
 
 </footer>
+<script src="app.js"></script>
+<script src="script.js"></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
