@@ -1038,6 +1038,7 @@ form#contact-form {
         flex-direction: column;
         align-items: center;
         margin-top: 30px;
+        margin: 0 auto;
     }
 
     .social-links-contact svg {
@@ -1048,6 +1049,7 @@ form#contact-form {
         font-size: 25px;
         position: sticky;
         fill: white;
+        margin: 0 auto;
     }
 
     .social-links-contact svg:hover {
