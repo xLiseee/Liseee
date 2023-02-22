@@ -31,4 +31,7 @@ const name = document.getElementById("name")
             'data': {'name':name.value, 'message':message.value}
         }),
     });
+    window.location.href = "message.html";
 });
+
+
