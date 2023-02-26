@@ -2,11 +2,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
     background-color: #2F92A8;
+    max-width: 1900px;
+    margin: 0 auto;
 }
 
 /* specifieke css */
@@ -23,22 +25,22 @@ main .container {
     width: 100%;
     display: flex;
     align-items: center;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .logomain {
     width: 150px;
     cursor: pointer;
-    margin-left: 80px;
-    margin-top: 30px;
+    margin-left: 90px;
+    margin-top: 20px;
 }
 
 
 nav {
     flex: 1;
     text-align: right;
-    margin-right: 80px;
-    margin-top: 30px;
+    margin-right: 110px;
+    margin-top: 20px;
 }
 
 nav ul li {
@@ -71,7 +73,7 @@ main {
 }
 
 .col-1 {
-    flex-basis: 40%;
+    flex-basis: 45%;
     position: relative;
     margin-left: 100px;
 }
@@ -124,10 +126,10 @@ footer {
 .col-1:after {
     content: '';
     width: 10px;
-    height: 75%;
+    height: 71%;
     background: #a8c6d2;
     position: absolute;
-    left: -40px;
+    left: -35px;
     top: 8px;
     border-radius: 6px;
 }
@@ -204,14 +206,6 @@ footer {
     justify-content: center;
 }
 
-.social-links-contact svg {
-    height: 60px;
-    color: white;
-    font-size: 25px;
-    position: sticky;
-    fill: white;
-}
-
 .social-links-contact svg:hover {
     color: #ebb548;
     fill: #ebb548;
@@ -225,7 +219,7 @@ footer {
 
 #rechthoek {
     width: 1250px;
-    height: 534px;
+    height: 520px;
     background: #81B4C6;
     border-radius: 35px;
     margin: 0 auto;
@@ -240,7 +234,7 @@ p {
     width: 750px;
     height: 341px;
     text-align: left;
-    font: normal normal normal 24px/31px Varela Round;
+    font: normal normal normal 24px/31px Inter;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -253,7 +247,7 @@ p {
     width: 432px;
     height: 100px;
     text-align: center;
-    font: normal normal normal 83px/100px Varela Round;
+    font: normal normal normal 83px/100px Inter;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -276,7 +270,7 @@ p {
     position: absolute;
     z-index: 3;
     margin-left: 2rem;
-    margin-top: 11rem;
+    margin-top: 9.5rem;
 }
 
 #rechthoek h1 {
@@ -284,12 +278,13 @@ p {
     position: absolute;
     z-index: 3;
     margin-left: 1.5rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 #rechthoek img {
 
     position: sticky;
+    margin-top: 40px;
 }
 
 
@@ -360,9 +355,9 @@ main {
 
 input {
     width: 500px;
-    height: 50px;
+    height: 40px;
     border: 0;
-    border-radius: 20px;
+    border-radius: 13px;
     margin: 10px;
     padding: 10px;
     font-size: 20px;
@@ -374,7 +369,7 @@ form {
     padding: 20px;
     width: 500px;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 13px;
     flex-direction: column;
 }
 
@@ -388,7 +383,7 @@ textarea {
     width: 70%;
     padding: 10px;
     margin: 0 auto;
-justify-content: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -397,10 +392,10 @@ form button {
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 13px;
     cursor: pointer;
-    margin-top: 10px;
-    width: 500px;
+    margin: 0 auto;
+    width: 370px;
     height: 50px;
     font-size: 20px;
 }
@@ -414,7 +409,7 @@ form button:hover {
 }
 
 textarea {
-    width: 400px;
+    width: 350px;
     height: 200px;
     border: 0;
     border-radius: 20px;
@@ -422,6 +417,7 @@ textarea {
     padding: 10px;
     font-size: 20px;
     outline: none;
+    margin-bottom: 30px;
 }
 
 .contact-form {
@@ -433,6 +429,7 @@ textarea {
     border-radius: 35px;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 0;
 }
 
 label {
@@ -527,7 +524,6 @@ label {
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
 }
-
 
 @media only screen and (max-width: 949px) {
 
@@ -920,10 +916,10 @@ form#contact-form {
 
         position: absolute;
         z-index: 3;
-        margin: 25.5rem auto 0 auto;
+        margin: 25.5rem 0 auto;
         font-size: 70px;
         text-align: center;
-        margin-left: 9px;
+        margin-left: 13px;
     }
 
     #rechthoek img {
@@ -938,12 +934,13 @@ form#contact-form {
     .hallodaar {
         height: 13px;
         text-align: center;
-        font: normal normal normal 83px/100px Varela Round;
+        font: normal normal normal 83px/100px Inter;
         letter-spacing: 0;
         color: #FFFFFF;
         opacity: 1;
         position: absolute;
         z-index: 3;
+        margin: 0 auto;
     }
 
     .aboutme {
@@ -1151,3 +1148,4 @@ form#contact-form {
         margin-left: 9px;
     }
 }
+

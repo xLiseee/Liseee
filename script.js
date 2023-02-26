@@ -1,9 +1,8 @@
 const form = document.querySelector('#contact-form');
-const statusMessage = document.querySelector('#status-message');
 
 form.addEventListener('submit', async (event) => {
     event.preventDefault();
-const name = document.getElementById("name")
+    const name = document.getElementById("name")
     const email = document.getElementById("email")
     const message = document.getElementById("message")
     console.log(name.value,email.value,message.value)
