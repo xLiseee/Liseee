@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e140c8f-ef05-4b73-ad91-fac718de296f" name="Changes" comment="05/03" />
+    <list default="true" id="8e140c8f-ef05-4b73-ad91-fac718de296f" name="Changes" comment="26/02">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2023_21_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2023_21_35__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2023__22_05__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_02_2023__22_05__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +20,6 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M3qmwsb0xNhO5jMhv6J4uXyQKx" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,47 +43,16 @@
       <updated>1677006776050</updated>
       <workItem from="1677006777330" duration="31000" />
       <workItem from="1677006835324" duration="3963000" />
-      <workItem from="1677748629059" duration="264000" />
-      <workItem from="1677873800638" duration="50000" />
-      <workItem from="1677873863268" duration="5000" />
-      <workItem from="1678020917472" duration="138000" />
+      <workItem from="1677445642394" duration="174000" />
     </task>
-    <task id="LOCAL-00001" summary="22/02">
-      <created>1677446275183</created>
+    <task id="LOCAL-00001" summary="26/02">
+      <created>1677445518235</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1677446275183</updated>
+      <updated>1677445518235</updated>
     </task>
-    <task id="LOCAL-00002" summary="22/02">
-      <created>1677446282049</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677446282049</updated>
-    </task>
-    <task id="LOCAL-00003" summary="22/02">
-      <created>1677748791677</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677748791677</updated>
-    </task>
-    <task id="LOCAL-00004" summary="22/02">
-      <created>1677873803530</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1677873803530</updated>
-    </task>
-    <task id="LOCAL-00005" summary="22/02">
-      <created>1678020927135</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678020927135</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +70,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22/02" />
-    <option name="LAST_COMMIT_MESSAGE" value="22/02" />
+    <MESSAGE value="26/02" />
+    <option name="LAST_COMMIT_MESSAGE" value="26/02" />
   </component>
 </project>
