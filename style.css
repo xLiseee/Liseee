@@ -20,6 +20,29 @@ main .container {
     box-sizing: border-box;
     overflow: hidden;
 }
+#aboutmelink {
+    text-decoration: none;
+    width: 140px;
+}
+.portfoliobutton {
+    margin-left: 20px;
+    width: 140px;
+    border: 1px solid black;
+    height: 40px;
+    padding: 12px 10px;
+    margin-top: 30px;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    background: #FFF2D8;
+    border-radius: 6px;
+    transition: width 0.5s;
+    cursor: pointer;
+}
+.portfoliobutton:hover {
+    background-color: white;
+    transition: width 0.5s;
+}
 
 .navbar {
     width: 100%;
@@ -55,10 +78,7 @@ nav ul li a {
     font-size: 20px;
 }
 
-nav ul li a:hover {
-    color: #ebb548;
-    transition-duration: 0.3s;
-}
+
 
 .mainabout {
     padding-top: 0;
@@ -581,10 +601,6 @@ textarea {
     margin-left: 20px;
 }
 
-.row5 .col-2 img {
-
-    margin-right: 30px;
-}
 
 label {
     font-size: 20px;
@@ -1018,6 +1034,7 @@ label {
         justify-content: center;
         align-items: center;
         margin-top: 6px;
+        margin: 0 auto;
         width: 50%;
     }
 
@@ -1119,6 +1136,7 @@ label {
 
     form button:hover {
         background-color: #FFF;
+        transition: width 0.5s;
     }
 
     #status-message {
@@ -1194,10 +1212,16 @@ label {
         display: flex;
         align-items: center;
     }
-
+h3.uitleg {
+    text-align: center;
+}
     #navbarbutton {
         margin-right: 30px;
         padding: 10px;
+    }
+    div #buttonsabout {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -1253,6 +1277,10 @@ label {
         margin-left: 1rem;
         margin-top: 2.6rem;
     }
+    h3.uitleg {
+       font-size: 14.4px;
+        text-align: center;
+    }
 
     .hallodaar {
         height: 13px;
@@ -1303,8 +1331,12 @@ label {
         justify-content: center;
         height: 100%;
         width: 90%;
+        margin: 0 auto;
     }
-
+div #buttonsabout {
+        display: flex;
+ justify-content: center;
+    }
     input {
         width: 70%;
         padding: 10px;
@@ -1500,6 +1532,10 @@ label {
         height: 230px;
         padding: 8px;
         margin: 0 auto;
+
+    }
+    .portfolio-images5 img {
+        height: 230px;
 
     }
 
