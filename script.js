@@ -30,7 +30,8 @@ form.addEventListener('submit', async (event) => {
             'data': {'name':name.value, 'message':message.value}
         }),
     });
-    window.location.href = "message.html";
+    window.alert("Message sent successfully!")
+    document.getElementById("contact-form").reset();
 });
 
 
