@@ -131,7 +131,7 @@ main {
     margin-left: 70px;
 }
 
-#navbarbutton {
+.navbarbutton {
     width: 120px;
     border: 1px solid black;
     height: 40px;
@@ -146,7 +146,7 @@ main {
     cursor: pointer;
 }
 
-#navbarbutton:hover {
+.navbarbutton:hover {
     border: 1px solid black;
     height: 40px;
     padding: 12px 10px;
@@ -1215,7 +1215,7 @@ label {
 h3.uitleg {
     text-align: center;
 }
-    #navbarbutton {
+    .navbarbutton {
         margin-right: 30px;
         padding: 10px;
     }
@@ -1424,7 +1424,7 @@ div #buttonsabout {
         align-items: center;
     }
 
-    #navbarbutton {
+    .navbarbutton {
         margin-right: 15px;
         padding: 10px;
     }
